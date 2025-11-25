@@ -16,13 +16,13 @@ body {
 .nav {
 list-style: none;
 font-size: 30px;
-font-family: barlow condensed;
+font-family: "Barlow", sans-serif;
 color: #65503a;
 }
 .nav1 {
 list-style: none;
 font-size: 49px;
-font-family: Bungee-regular;
+font-family: "Bungee", sans-serif;
 color: #65503a;
 }
 .main {
@@ -35,21 +35,21 @@ color: #65503a;
 }
 .body {
     font-size: 30px;
-    font-family: barlow condensed;
+  font-family: "Barlow", sans-serif;
     color: #65503a;
     margin: 20px 100px 20px 100px;
     text-align: center;
 }
 .title {
     font-size: 35px;
-    font-family: Bungee-regular;
+  font-family: "Bungee", sans-serif;
     color: #51412f;
     margin: 20px 100px 20px 100px;
     text-align: center;
 }
 .genre {
     font-size: 50px;
-    font-family: Bungee-regular;
+font-family: "Bungee", sans-serif;
     color: #3a2e21;
     margin: 40px 100px 10px 100px;
     text-align: center;
@@ -96,7 +96,7 @@ a:active {
 }
 .wordmark {
     font-size: 100px;
-    font-family: Bungee-regular;
+font-family: "Bungee", sans-serif;
     color: #ffffff;
     margin: 50px 100px 50px 100px;
     text-align: center;
