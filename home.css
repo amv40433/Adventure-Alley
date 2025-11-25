@@ -1,0 +1,112 @@
+body {
+    background-image: url(Home\ Page\ Background.png);
+    background-size: cover;
+}
+.topnav {
+ background-color:  #beb6a6;
+  opacity: 80%;
+ padding: 20px;
+ margin: 10px 0px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+
+.nav {
+list-style: none;
+font-size: 30px;
+font-family: barlow condensed;
+color: #65503a;
+}
+.nav1 {
+list-style: none;
+font-size: 49px;
+font-family: Bungee-regular;
+color: #65503a;
+}
+.main {
+    background-color:#beb6a6;
+     opacity: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 80px 20px 80px;
+    text-align: center;
+}
+.body {
+    font-size: 30px;
+    font-family: barlow condensed;
+    color: #65503a;
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+.title {
+    font-size: 35px;
+    font-family: Bungee-regular;
+    color: #51412f;
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+.genre {
+    font-size: 50px;
+    font-family: Bungee-regular;
+    color: #3a2e21;
+    margin: 40px 100px 10px 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    background-color:#beb6a6;
+    opacity: 75%;
+    border: #51412f 3px solid;
+
+
+}
+.bottomnav {
+ background-color:  #beb6a6;
+ opacity: 80%;
+ padding: 20px;
+ margin: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+a:link {
+ color: #3a2e21;
+ text-decoration: none;
+}
+
+a:visited {
+  color: #3a2e21;
+}
+
+a:hover {
+   color: #65503a;
+   font-size: larger;
+}
+
+a:active {
+ color: #3a2e21;
+}
+
+.homemain {
+    margin: 0px 80px 20px 80px;
+    text-align: center;
+}
+.wordmark {
+    font-size: 100px;
+    font-family: Bungee-regular;
+    color: #ffffff;
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+}
+.homebody {
+    background-color:#beb6a6;
+    border: #51412f 3px solid;
+    opacity: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 110px 20px 140px;
+    text-align: center;
+}
