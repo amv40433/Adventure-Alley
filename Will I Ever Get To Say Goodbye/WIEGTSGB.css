@@ -1,0 +1,104 @@
+body {
+    background-image: url(willievergettosaygoodbyeback.png);
+    background-size: cover;
+}
+.topnav {
+background-color:#363026;
+opacity: 95%;
+padding: 5px;
+margin:  -8px -8px 20px -8px;
+display: flex;
+justify-content: space-around;
+align-items: center
+}
+.nav {
+list-style: none;
+font-size: 20px;
+font-family: "Barlow", sans-serif;
+color: #fffffd;
+}
+.nav1 {
+list-style: none;
+font-size: 35px;
+font-family: "Bungee", sans-serif;
+color: #fffffd;}
+
+a:link {
+ color: #fffffd;
+ text-decoration: none;
+}
+
+a:visited {
+  color: #fffffd;
+}
+
+a:hover {
+   color: #65503a;
+   transition: all 0.3s ease;
+}
+
+a:active {
+ color: #fffffd;
+}
+
+.bottomnav {
+background-color:#363026;
+opacity: 95%;
+padding: 20px;
+margin: 50px -5px -5px -5px;
+display: flex;
+justify-content: space-around;
+align-items: center
+}
+
+.title {
+    font-size: 100px;
+    font-family: "Alex Brush", cursive;
+      font-weight: 300;
+  font-style: normal;
+    color: #fffffd;
+    margin: 40px 100px 10px 100px;
+    text-align: center;
+    padding: 3px;
+    background-color:#363026;
+    opacity: 95%;
+}
+.main {
+    background-color:#363026;
+    opacity: 95%;
+    padding: 5px;
+    margin: 50px 150px 20px 150px;
+    text-align: center;
+}
+.body {
+    font-size: 18px;
+font-family: "Victor Mono", monospace;
+line-height: 35px;
+    color: #fffffd;
+    text-align: left;
+ padding: 12px;
+    margin: 15px 20px 0px 20px;
+}
+
+.opt {
+    font-size: 25px;
+font-family: "Victor Mono", monospace;
+    color: #fffffd;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 20px 15px 20px 15px;
+}
+
+.chapter {
+   font-size: 75px;
+ font-family: "Victor Mono", monospace;
+      font-weight: 300;
+  font-style: normal;
+    color: #fffffd;
+    margin: 50px 100px 10px 100px;
+    text-align: center;
+    padding: 3px;
+    background-color:#363026;
+    opacity: 95%; }
