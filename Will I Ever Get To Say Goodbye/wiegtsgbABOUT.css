@@ -1,0 +1,25 @@
+body {
+    background-image: url(bookabout.png);
+    background-size: cover;
+        max-width: 1500px;
+     min-width: 1500px;
+}
+
+.books{
+    width: 500px;
+    transition: transform 0.3s ease;
+    list-style: none;
+    filter: drop-shadow(1px 2px 3px #16110d );
+    justify-content: center;
+    
+}
+.opt {
+    font-size: 25px;
+font-family: "Victor Mono", monospace;
+    color: #fffffd;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 20px 15px 20px 15px;
+}

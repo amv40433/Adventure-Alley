@@ -1,0 +1,73 @@
+body {
+background-color: black;
+}
+.main {
+    margin: 150px 0px 20px 0px;
+    text-align: center;
+}
+.body {
+font-family: "Goudy Bookletter 1911", serif;
+    font-size: 45px;
+line-height: 75px;
+    color: #d4cece;
+    text-align: left;
+ padding: 12px;
+  margin: 450px 650px 450px 25px;
+}
+
+.body1 {
+font-family: "Goudy Bookletter 1911", serif;
+    font-size: 45px;
+line-height: 75px;
+    color: #d4cece;
+    text-align: right;
+ padding: 12px;
+  margin: 450px 25px 450px 750px;
+}
+.body2 {
+font-family: "Goudy Bookletter 1911", serif;
+    font-size: 45px;
+line-height: 75px;
+    color: #d4cece;
+    text-align: center;
+ padding: 12px;
+  margin: 450px 500px 450px 500px;
+}
+
+.opt {
+    font-size: 25px;
+font-family: "Goudy Bookletter 1911", serif;
+    color: #d4cece;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 20px 15px 20px 15px;
+    padding: 25px;
+}
+
+a:link {
+ color: #d4cece;
+ text-decoration: none;
+}
+
+a:visited {
+  color: #d4cece;
+}
+
+a:hover {
+   color: #d4cece;
+   transition: all 0.3s ease;
+}
+
+a:active {
+ color: #d4cece;
+}
+
+.title {
+font-family: "Goudy Bookletter 1911", serif;
+    font-size: 75px;
+    color: #d4cece;
+    text-align: center;
+        margin: 250px 0px 20px 0px;
+}

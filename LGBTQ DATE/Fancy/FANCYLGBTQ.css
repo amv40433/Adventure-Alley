@@ -1,0 +1,78 @@
+body {
+background-image:url(../A\ Night\ To\ Remember\ Back.png);
+    background-size: cover;
+
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+    font-size: 100px;
+text-align: center;
+margin: 150px 50px 50px 50px;
+color: #6d0154;
+
+}
+.main {
+  background-image: url(../antrPAGE.png);
+    background-size: cover;
+    opacity: 90%;
+    padding: 5px;
+    margin: 125px 125px 125px 125px;
+    text-align: center;
+    border-radius: 5px;
+}
+.body{
+ font-family: "Caveat", cursive;
+     font-size: 50px;
+text-align: center;
+margin: 100px 50px 75px 50px;
+line-height: 75px;
+color: #6d0154;
+}
+
+.start {
+  font-family: "Caveat", cursive;
+    font-size: 75px;
+line-height: 75px;
+text-align: center;
+list-style: none;
+color: #6d0154;
+margin: 50px 50px 150px 50px;
+}
+
+a:link {
+color: #6d0154;
+ text-decoration: none;
+}
+
+a:visited {
+color: #6d0154;
+}
+
+a:hover {
+   color: #fd6fdc;
+   transition: all 0.3s ease;
+}
+
+a:active {
+color: #6d0154;
+}
+
+.opt:hover{
+    transform: scale(1.03);
+    cursor: pointer;}
+
+  .opt{
+    position: relative;
+    max-width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    list-style: none;
+    filter: drop-shadow(1px 2px 3px #16110d );
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Caveat", cursive;
+     font-size:35px;
+     color: #6d0154;   
+  }

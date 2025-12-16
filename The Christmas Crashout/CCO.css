@@ -1,30 +1,6 @@
 body {
     background-color: #141f1f;
-    background-image: url("ccofooter.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
 }
-.topnav {
-background-color:#15211c;
-opacity: 95%;
-padding: 5px;
-margin:  -8px -8px 20px -8px;
-display: flex;
-justify-content: space-around;
-align-items: center
-}
-.nav {
-list-style: none;
-font-size: 20px;
-font-family: "Barlow", sans-serif;
-color: #304039;
-}
-.nav1 {
-list-style: none;
-font-size: 35px;
-font-family: "Bungee", sans-serif;
-color: #304039;}
 
 a:link {
  color: #304039;
@@ -44,30 +20,21 @@ a:active {
  color: #304039;
 }
 
-.bottomnav {
-background-color:#15211c;
-opacity: 95%;
-padding: 25px;
-margin: 55px -7px -5px -7px;
-display: flex;
-justify-content: space-around;
-align-items: center
-}
 
 .title {
-  font-size: 35px;
+  font-size: 45px;
  font-family: "Courier Prime", monospace;
 line-height: 35px;
     color: #15211c;
     text-align: center;
  padding: 12px;
-    margin: 50px 150px 50px 150px;
+    margin: 150px 150px 150px 150px;
 }
 .main {
     background-image: url(ccopaper.png);
     opacity: 95%;
     padding: 5px;
-    margin: 50px 150px 20px 150px;
+    margin: 150px 150px 20px 150px;
     text-align: center;
 }
 .body {
@@ -77,26 +44,42 @@ line-height: 35px;
     color: #15211c;
     text-align: center;
  padding: 12px;
-    margin: 0px 150px 50px 150px;
+    margin: 0px 175px 50px 175px;
 }
 
 .opt {
-    font-size: 30px;
-font-family: "Courier Prime", monospace;
-    color: #304039;
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    align-items: center;
-    margin: 0px 170px 0px 130px;
-}
-
-.chapter {
-  font-size: 20px;
+    font-size: 20px;
  font-family: "Courier Prime", monospace;
 line-height: 35px;
     color: #15211c;
     text-align: center;
  padding: 12px;
-    margin: 50px 150px 50px 150px;
+    margin: 0px 175px 0px 120px;
+    list-style: none;
+}
+
+.chapter {
+  font-size: 35px;
+ font-family: "Courier Prime", monospace;
+line-height: 35px;
+    color: #15211c;
+    text-align: center;
+ padding: 12px;
+    margin: 150px 150px 50px 150px;
+}
+.container {
+    text-align: center;
+    margin: 0px 0px 125px 0px;
+}
+
+.opts {
+    font-size: 20px;
+ font-family: "Courier Prime", monospace;
+line-height: 35px;
+    color: #15211c;
+    text-align: center;
+ padding: 12px;
+    margin: 0px 175px 0px 120px;
+    list-style: none;
+    display: inline-block;
 }

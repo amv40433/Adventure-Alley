@@ -2,34 +2,21 @@ body {
     background-image: url(willievergettosaygoodbyeback.png);
     background-size: cover;
 }
-.topnav {
-background-color:#363026;
-opacity: 95%;
-padding: 5px;
-margin:  -8px -8px 20px -8px;
-display: flex;
-justify-content: space-around;
-align-items: center
-}
+
 .nav {
 list-style: none;
-font-size: 20px;
+font-size: 15px;
 font-family: "Barlow", sans-serif;
 color: #fffffd;
 }
-.nav1 {
-list-style: none;
-font-size: 35px;
-font-family: "Bungee", sans-serif;
-color: #fffffd;}
 
 a:link {
- color: #fffffd;
+ color: #1d1d1d;
  text-decoration: none;
 }
 
 a:visited {
-  color: #fffffd;
+  color: #1d1d1d;
 }
 
 a:hover {
@@ -38,52 +25,47 @@ a:hover {
 }
 
 a:active {
- color: #fffffd;
+ color: #1d1d1d;
 }
 
 .bottomnav {
-background-color:#363026;
-opacity: 95%;
-padding: 20px;
-margin: 50px -5px -5px -5px;
 display: flex;
 justify-content: space-around;
 align-items: center
 }
 
 .title {
-    font-size: 100px;
+    font-size: 75px;
     font-family: "Alex Brush", cursive;
-      font-weight: 300;
-  font-style: normal;
-    color: #fffffd;
-    margin: 40px 100px 10px 100px;
+    color: #1d1d1d;
+    margin: 250px 150px 250px 150px;
     text-align: center;
     padding: 3px;
-    background-color:#363026;
-    opacity: 95%;
 }
 .main {
-    background-color:#363026;
+  background-image: url(Book\ Page.png);
+    background-size: cover;
     opacity: 95%;
     padding: 5px;
-    margin: 50px 150px 20px 150px;
+    margin: 250px 250px 20px 250px;
     text-align: center;
 }
 .body {
-    font-size: 18px;
-font-family: "Victor Mono", monospace;
-line-height: 35px;
-    color: #fffffd;
+font-family: "Goudy Bookletter 1911", serif;
+    font-size: 25px;
+line-height: 55px;
+    color: #1d1d1d;
     text-align: left;
  padding: 12px;
-    margin: 15px 20px 0px 20px;
-}
+    margin: -5px 50px 0px 75px;
+     text-indent: 2em;
 
+
+}
 .opt {
     font-size: 25px;
-font-family: "Victor Mono", monospace;
-    color: #fffffd;
+font-family: "Goudy Bookletter 1911", serif;
+    color: #1d1d1d;
     text-align: center;
     list-style: none;
     display: inline-block;
@@ -93,12 +75,18 @@ font-family: "Victor Mono", monospace;
 
 .chapter {
    font-size: 75px;
- font-family: "Victor Mono", monospace;
+font-family: "Goudy Bookletter 1911", serif;
       font-weight: 300;
   font-style: normal;
-    color: #fffffd;
-    margin: 50px 100px 10px 100px;
+    color: #1d1d1d;
     text-align: center;
-    padding: 3px;
-    background-color:#363026;
-    opacity: 95%; }
+    margin: 100px 0px 0px 0px;
+}
+
+.start {
+   font-size: 55px;
+font-family: "Goudy Bookletter 1911", serif;
+    text-align: center;
+    list-style: none;
+    margin: 250px 0px 250px 0px;
+}

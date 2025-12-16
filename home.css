@@ -1,17 +1,19 @@
 body {
     background-image: url(back\ texture.png);
     background-size: cover;
+    max-width: 2000px;
+    min-width: 2000px;
 }
-.topnav {
+
+.bottomnav {
 background-color:#beb6a6;
 opacity: 50%;
 padding: 20px;
-margin: -25px -6px 10px -6px;
+margin: 50px -5px -5px -5px;
 display: flex;
 justify-content: space-around;
 align-items: center
 }
-
 
 .nav {
 list-style: none;
@@ -19,26 +21,23 @@ font-size: 30px;
 font-family: "Barlow", sans-serif;
 color: #65503a;
 }
-.nav1 {
-list-style: none;
-font-size: 49px;
-font-family: "Bungee", sans-serif;
-color: #65503a;
-}
+
 .main {
-    background-color:#beb6a6;
-     opacity: 75%;
+  background-image: url(Book\ Page.png);
+    background-size: cover;     
+    opacity: 95%;
     padding: 20px;
-    border-radius: 10px;
-    margin: 50px 150px 20px 150px;
+    border-radius: 3px;
+    margin: 50px 450px 20px 450px;
     text-align: center;
 }
 .body {
-    font-size: 20px;
+    font-size: 35px;
   font-family: "Barlow", sans-serif;
     color: #65503a;
-    margin: 20px 100px 20px 100px;
+    margin: 75px 100px 75px 100px;
     text-align: center;
+    line-height: 90px;
 }
 
 .class {
@@ -52,14 +51,14 @@ color: #65503a;
     font-size: 40px;
   font-family: "Bungee", sans-serif;
     color: #51412f;
-    margin: 20px 150px 20px 150px;
+    margin: 75px 150px 20px 150px;
     text-align: center;
 }
 .title {
     font-size: 65px;
 font-family: "Bungee", sans-serif;
     color: #3a2e21;
-    margin: 40px 100px 10px 100px;
+    margin: 150px 100px 150px 100px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
@@ -68,15 +67,6 @@ font-family: "Bungee", sans-serif;
     border: #51412f 3px solid;
 
 
-}
-.bottomnav {
-background-color:#beb6a6;
-opacity: 50%;
-padding: 20px;
-margin: 50px -5px -5px -5px;
-display: flex;
-justify-content: space-around;
-align-items: center
 }
 
 a:link {
@@ -119,8 +109,8 @@ a:active {
     text-align: center;
 }
 .bookshelf {
-   position: relative;
-    width: 1500px;
+   position: absolute;
+    width: 2000px;
     margin: 0 auto;
 }
 
@@ -133,7 +123,7 @@ a:active {
 
 .books{
     position: absolute;
-    width: 125px;
+    width: 165px;
     transition: transform 0.3s ease;
     list-style: none;
     filter: drop-shadow(1px 2px 3px #16110d );
@@ -145,32 +135,32 @@ a:active {
     cursor: pointer;
 }
 .wiegtsgb{
-    top: 495px;
-    left: 335px;
-    width: 220px;
+    top: 150px;
+    left: 550px;
+    width: 400px;
 }
 .antr {
-    top: 496px;
-    left: 830px;
-    width: 270px;
+    top: 150px;
+    left: 1350px;
+    width: 400px;
 }
 
 .gwtc {
-    top: 730px;
-    left: 550px;
-    width: 270px;
+    top: 490px;
+    left: 890px;
+    width: 400px;
 }
 
 .tcco{
-    top: 955px;
-    left: 100px;
-    width: 240px;
+    top: 830px;
+    left: 225px;
+    width: 400px;
 }
 
 .ab{
-    top: 955px;
-    left: 785px;
-    width: 270px;
+    top: 830px;
+    left: 1250px;
+    width: 400px;
 }
 .page{
     width: 100%;
